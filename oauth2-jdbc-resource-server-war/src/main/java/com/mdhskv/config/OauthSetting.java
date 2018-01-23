@@ -1,4 +1,4 @@
-package com.ncq.config;
+package com.mdhskv.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -14,7 +14,7 @@ import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
  * Created by quynh on 11/18/2017.
  */
 @Configuration
-@ComponentScan(basePackages = {"com.ncq"})
+@ComponentScan(basePackages = {"com.mdhskv"})
 public class OauthSetting {
 
     @Autowired

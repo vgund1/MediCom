@@ -1,4 +1,4 @@
-package com.ncq;
+package com.mdhskv;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.ncq;
+package com.mdhskv;
 
-import com.ncq.config.DataSourceSetting;
-import com.ncq.config.OauthSetting;
+import com.mdhskv.config.DataSourceSetting;
+import com.mdhskv.config.OauthSetting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.ComponentScan;
@@ -19,7 +19,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
  */
 @Configuration
 @EnableAuthorizationServer
-@ComponentScan(basePackages = {"com.ncq"})
+@ComponentScan(basePackages = {"com.mdhskv"})
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
     @Autowired

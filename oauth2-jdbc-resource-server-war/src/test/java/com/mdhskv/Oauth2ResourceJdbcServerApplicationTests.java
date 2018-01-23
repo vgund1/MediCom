@@ -1,4 +1,4 @@
-package com.ncq;
+package com.mdhskv;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DemoOauth2ApplicationTests {
+public class Oauth2ResourceJdbcServerApplicationTests {
 
 	@Test
 	public void contextLoads() {

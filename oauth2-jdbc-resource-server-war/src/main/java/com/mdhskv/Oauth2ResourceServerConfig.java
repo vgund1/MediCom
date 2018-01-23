@@ -1,6 +1,6 @@
-package com.ncq;
+package com.mdhskv;
 
-import com.ncq.config.OauthSetting;
+import com.mdhskv.config.OauthSetting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -21,7 +21,7 @@ import java.util.Arrays;
 
 @Configuration
 @EnableResourceServer
-@ComponentScan(basePackages = {"com.ncq"})
+@ComponentScan(basePackages = {"com.mdhskv"})
 public class Oauth2ResourceServerConfig extends ResourceServerConfigurerAdapter{
 
     @Autowired

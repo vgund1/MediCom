@@ -1,7 +1,7 @@
-package com.ncq;
+package com.mdhskv;
 
 
-import com.ncq.config.OauthSetting;
+import com.mdhskv.config.OauthSetting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.context.annotation.Bean;
@@ -21,7 +21,7 @@ import java.util.Arrays;
 
 @Configuration
 @Order(SecurityProperties.ACCESS_OVERRIDE_ORDER)
-@ComponentScan(basePackages = {"com.ncq"})
+@ComponentScan(basePackages = {"com.mdhskv"})
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired

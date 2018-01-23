@@ -1,4 +1,4 @@
-package com.ncq;
+package com.mdhskv;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
