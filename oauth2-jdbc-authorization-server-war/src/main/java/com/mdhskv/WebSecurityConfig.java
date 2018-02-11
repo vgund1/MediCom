@@ -60,9 +60,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(final HttpSecurity http) throws Exception {
         http.authorizeRequests()
                 //.antMatchers("/oauth/revoke-token").hasRole("ADMIN")
-                .antMatchers("/oauth/**").permitAll()
-                .anyRequest().authenticated()
-            .and().cors();
+                .antMatchers("/oauth/**","/activate/**").permitAll()
+                .anyRequest().authenticated().and().csrf().disable().cors();
     }
 
     @Bean
